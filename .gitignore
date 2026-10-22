@@ -19,3 +19,4 @@ tools/dist/
 !kicad_libs/
 *-lib-table*
 *.kicad_prl
+pcb/kicad/.history/
