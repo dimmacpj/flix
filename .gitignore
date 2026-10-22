@@ -13,3 +13,9 @@ tools/dist/
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/intellisense.h
+
+
+#For Kicad
+!kicad_libs/
+*-lib-table*
+*.kicad_prl
