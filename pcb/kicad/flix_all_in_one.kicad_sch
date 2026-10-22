@@ -5,14 +5,17 @@
 	(uuid "b72e5080-03e0-4f53-a508-ed803e54cf11")
 	(paper "A4")
 	(lib_symbols
-		(symbol "RF_Module:ESP32-WROOM-32E"
+		(symbol "PCM_Espressif:ESP32-WROOM-E"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -12.7 34.29 0)
+				(at -30.48 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -22,8 +25,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ESP32-WROOM-32E"
-				(at 1.27 34.29 0)
+			(property "Value" "ESP32-WROOM-E"
+				(at -30.48 25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -33,8 +36,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "RF_Module:ESP32-WROOM-32E"
-				(at 16.51 -34.29 0)
+			(property "Footprint" "PCM_Espressif:ESP32-WROOM-32E"
+				(at 0 -35.56 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -45,6 +48,17 @@
 				)
 			)
 			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"
+				(at 0 -38.1 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ESP32-WROOM-32E integrates ESP32-D0WD-V3, with higher stability and safety performance."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -55,7 +69,7 @@
 					)
 				)
 			)
-			(property "Description" "RF Module, ESP32-D0WD-V3 SoC, without PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(property "ki_keywords" "ESP32"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -66,34 +80,12 @@
 					)
 				)
 			)
-			(property "ki_keywords" "RF Radio BT ESP ESP32 Espressif onboard PCB antenna"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "ESP32?WROOM?32E*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ESP32-WROOM-32E_0_1"
+			(symbol "ESP32-WROOM-E_0_1"
 				(rectangle
-					(start -12.7 33.02)
-					(end 12.7 -33.02)
+					(start -30.48 22.86)
+					(end 30.48 -22.86)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -101,11 +93,37 @@
 					)
 				)
 			)
-			(symbol "ESP32-WROOM-32E_1_1"
+			(symbol "ESP32-WROOM-E_1_1"
+				(text "ESP32-­WROOM­"
+					(at 5.08 -5.08 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+					)
+				)
 				(pin power_in line
-					(at 0 35.56 270)
+					(at 0 -25.4 90)
 					(length 2.54)
-					(name "VDD"
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 25.4 270)
+					(length 2.54)
+					(name "3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -121,9 +139,9 @@
 					)
 				)
 				(pin input line
-					(at -15.24 30.48 0)
+					(at -33.02 20.32 0)
 					(length 2.54)
-					(name "EN"
+					(name "EN/CHIP_PU"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -139,9 +157,9 @@
 					)
 				)
 				(pin input line
-					(at -15.24 25.4 0)
+					(at -33.02 -10.16 0)
 					(length 2.54)
-					(name "SENSOR_VP"
+					(name "SENSOR_VP/GPIO36/ADC1_CH0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -157,9 +175,9 @@
 					)
 				)
 				(pin input line
-					(at -15.24 22.86 0)
+					(at -33.02 -12.7 0)
 					(length 2.54)
-					(name "SENSOR_VN"
+					(name "SENSOR_VN/GPIO39/ADC1_CH3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -175,9 +193,9 @@
 					)
 				)
 				(pin input line
-					(at 15.24 -25.4 180)
+					(at -33.02 -5.08 0)
 					(length 2.54)
-					(name "IO34"
+					(name "GPIO34/ADC1_CH6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -193,9 +211,9 @@
 					)
 				)
 				(pin input line
-					(at 15.24 -27.94 180)
+					(at -33.02 -7.62 0)
 					(length 2.54)
-					(name "IO35"
+					(name "GPIO35/ADC1_CH7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -211,9 +229,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -20.32 180)
+					(at -33.02 15.24 0)
 					(length 2.54)
-					(name "IO32"
+					(name "32K_XP/GPIO32/ADC1_CH4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -229,9 +247,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -22.86 180)
+					(at -33.02 12.7 0)
 					(length 2.54)
-					(name "IO33"
+					(name "32K_XN/GPIO33/ADC1_CH5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -247,9 +265,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -12.7 180)
+					(at 33.02 -15.24 180)
 					(length 2.54)
-					(name "IO25"
+					(name "DAC_1/ADC2_CH8/GPIO25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -265,9 +283,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -15.24 180)
+					(at 33.02 -17.78 180)
 					(length 2.54)
-					(name "IO26"
+					(name "DAC_2/ADC2_CH9/GPIO26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -283,9 +301,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -17.78 180)
+					(at 33.02 -20.32 180)
 					(length 2.54)
-					(name "IO27"
+					(name "ADC2_CH7/GPIO27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -301,9 +319,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 10.16 180)
+					(at -33.02 2.54 0)
 					(length 2.54)
-					(name "IO14"
+					(name "MTMS/GPIO14/ADC2_CH6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -319,9 +337,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 15.24 180)
+					(at -33.02 7.62 0)
 					(length 2.54)
-					(name "IO12"
+					(name "MTDI/GPIO12/ADC2_CH5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -336,10 +354,29 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 12.7 180)
+				(pin passive line
+					(at 0 -25.4 90)
 					(length 2.54)
-					(name "IO13"
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 5.08 0)
+					(length 2.54)
+					(name "MTCK/GPIO13/ADC2_CH4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -354,124 +391,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 -12.7 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 -10.16 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 15.24 7.62 180)
+					(at -33.02 0 0)
 					(length 2.54)
-					(name "IO15"
+					(name "MTDO/GPIO15/ADC2_CH3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -487,9 +410,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 25.4 180)
+					(at 33.02 10.16 180)
 					(length 2.54)
-					(name "IO2"
+					(name "ADC2_CH2/GPIO2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -505,9 +428,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 30.48 180)
+					(at 33.02 12.7 180)
 					(length 2.54)
-					(name "IO0"
+					(name "GPIO0/BOOT/ADC2_CH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -523,9 +446,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 20.32 180)
+					(at 33.02 7.62 180)
 					(length 2.54)
-					(name "IO4"
+					(name "ADC2_CH0/GPIO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -541,9 +464,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 5.08 180)
+					(at 33.02 2.54 180)
 					(length 2.54)
-					(name "IO16"
+					(name "GPIO16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -559,9 +482,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 2.54 180)
+					(at 33.02 0 180)
 					(length 2.54)
-					(name "IO17"
+					(name "GPIO17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -577,9 +500,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 17.78 180)
+					(at 33.02 5.08 180)
 					(length 2.54)
-					(name "IO5"
+					(name "GPIO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -595,9 +518,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 0 180)
+					(at 33.02 -2.54 180)
 					(length 2.54)
-					(name "IO18"
+					(name "GPIO18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -613,9 +536,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -2.54 180)
+					(at 33.02 -5.08 180)
 					(length 2.54)
-					(name "IO19"
+					(name "GPIO19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -630,29 +553,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -12.7 -27.94 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 15.24 -5.08 180)
+					(at 33.02 -7.62 180)
 					(length 2.54)
-					(name "IO21"
+					(name "GPIO21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -668,9 +572,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 22.86 180)
+					(at 33.02 17.78 180)
 					(length 2.54)
-					(name "RXD0/IO3"
+					(name "U0RXD/GPIO3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -686,9 +590,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 27.94 180)
+					(at 33.02 20.32 180)
 					(length 2.54)
-					(name "TXD0/IO1"
+					(name "U0TXD/GPIO1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -704,9 +608,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -7.62 180)
+					(at 33.02 -10.16 180)
 					(length 2.54)
-					(name "IO22"
+					(name "GPIO22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -722,9 +626,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -10.16 180)
+					(at 33.02 -12.7 180)
 					(length 2.54)
-					(name "IO23"
+					(name "GPIO23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -739,9 +643,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -35.56 90)
+				(pin passive line
+					(at 0 -25.4 90)
 					(length 2.54)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -749,7 +654,25 @@
 							)
 						)
 					)
-					(number "[1,15,38,39]"
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -25.4 90)
+					(length 2.54)
+					(name "GND_THERMAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -762,8 +685,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Module:ESP32-WROOM-32E")
-		(at 148.59 102.87 0)
+		(lib_id "PCM_Espressif:ESP32-WROOM-E")
+		(at 195.58 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -772,9 +695,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fde3c38a-1759-4b9a-9971-272b9c856dcd")
+		(uuid "6ad2d53e-62a0-4449-88fb-19837db28514")
 		(property "Reference" "U1"
-			(at 150.7333 64.77 0)
+			(at 197.7233 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -784,8 +707,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-WROOM-32E"
-			(at 150.7333 67.31 0)
+		(property "Value" "ESP32-WROOM-E"
+			(at 197.7233 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -795,8 +718,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32E"
-			(at 165.1 137.16 0)
+		(property "Footprint" "PCM_Espressif:ESP32-WROOM-32E"
+			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -807,7 +730,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"
-			(at 148.59 102.87 0)
+			(at 195.58 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -817,8 +740,8 @@
 				)
 			)
 		)
-		(property "Description" "RF Module, ESP32-D0WD-V3 SoC, without PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
-			(at 148.59 102.87 0)
+		(property "Description" "ESP32-WROOM-32E integrates ESP32-D0WD-V3, with higher stability and safety performance."
+			(at 195.58 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -828,113 +751,101 @@
 				)
 			)
 		)
-		(pin "14"
-			(uuid "ccc92afb-e37e-4a16-81c7-2666670a743e")
-		)
-		(pin "11"
-			(uuid "c85e9d45-07c0-48ff-ae95-955cc904a757")
-		)
-		(pin "16"
-			(uuid "659fa961-cf95-4652-b64c-0f443c48946d")
-		)
-		(pin "12"
-			(uuid "a06f3dd5-e2a1-449b-9cbd-96143768b165")
-		)
-		(pin "9"
-			(uuid "c80b55db-4543-4a19-ad56-22d4cb9ed4bf")
-		)
-		(pin "17"
-			(uuid "d6e6cb16-3abd-4858-9404-156cdf96855e")
-		)
-		(pin "13"
-			(uuid "29355d1c-c8e5-4cfd-a214-42ca3c6096ba")
+		(pin "15"
+			(uuid "9d7f5d37-701a-49d7-a330-c535f53e8d74")
 		)
 		(pin "30"
-			(uuid "4c9da6f9-ba58-47d9-8efd-e7808f0688d2")
-		)
-		(pin "33"
-			(uuid "fe139c2e-4aa1-4214-859d-a5c0f352928e")
-		)
-		(pin "27"
-			(uuid "f2946c73-5936-454f-9a62-6672227e3073")
+			(uuid "1ddfc654-8026-4f99-b2bb-cdff9e1b270b")
 		)
 		(pin "31"
-			(uuid "ce66b51b-28dd-453b-bcf1-adc3e137f305")
+			(uuid "bcb5db0a-9b23-4793-ba08-b35d629d3692")
 		)
-		(pin "10"
-			(uuid "519e7f11-c2bb-49be-b497-5a86939263ae")
-		)
-		(pin "32"
-			(uuid "6151e342-f974-42ff-b76f-2dd0041de59f")
-		)
-		(pin "34"
-			(uuid "f42cccf7-1b25-4925-bdb3-7f5835beed08")
-		)
-		(pin "18"
-			(uuid "b5a3260d-98d3-4435-8d47-fca538e8b521")
-		)
-		(pin "26"
-			(uuid "ac4a864f-9ce9-4069-962c-ed82e0621b44")
-		)
-		(pin "28"
-			(uuid "2a7566f7-12a4-4458-9862-a20a980b6022")
-		)
-		(pin "19"
-			(uuid "e0cae736-5cd1-4d28-9a0c-5b07ad546378")
-		)
-		(pin "21"
-			(uuid "ac44f90e-4a6a-4cb8-ae5d-44dd3c3bb7de")
-		)
-		(pin "35"
-			(uuid "aefc9a59-098a-416e-a00d-01014172df24")
-		)
-		(pin "36"
-			(uuid "4390cf1a-3ae0-4ea9-93af-335d5aa2c03a")
-		)
-		(pin "29"
-			(uuid "39efed38-090f-498a-9d9c-d22668b29b48")
-		)
-		(pin "[1,15,38,39]"
-			(uuid "f76eed4f-c9bc-4054-9f1d-cb471f14cac9")
-		)
-		(pin "3"
-			(uuid "3efbe0a2-4882-497b-b43c-b12c1d9bc0e4")
-		)
-		(pin "2"
-			(uuid "e6c4e460-d63c-4bca-9bcf-b2836e4256a1")
-		)
-		(pin "20"
-			(uuid "9e60af4c-17b1-4032-99a1-a110ce845f6e")
-		)
-		(pin "4"
-			(uuid "d8481a30-d577-44dc-b67d-22537c0f20d5")
+		(pin "13"
+			(uuid "c19b1e78-3b8c-4c24-998f-41d219c5284e")
 		)
 		(pin "25"
-			(uuid "80cf1ce6-b396-45cb-b69e-2899a18da769")
+			(uuid "52d94830-2d49-4153-934e-0eebe73996c5")
 		)
-		(pin "6"
-			(uuid "c23c8e91-c6a8-43e9-894c-c82dd1eeb029")
+		(pin "35"
+			(uuid "2e7de4a5-cac0-4d5b-a579-0c3138cddfd5")
 		)
-		(pin "24"
-			(uuid "00c878ad-6c5b-4fc1-8c97-fd4f8d3550eb")
+		(pin "36"
+			(uuid "6ab735e8-1771-45ec-9657-a961bef3e8dc")
 		)
-		(pin "5"
-			(uuid "cc51ab7f-9585-4a52-a0fe-1ba157a988f6")
+		(pin "33"
+			(uuid "dd9ca8db-fcaa-4f6e-81ec-975e2c4cdc72")
 		)
-		(pin "7"
-			(uuid "b196fb9d-90d8-4d0b-b00d-9ebbb086ae8f")
+		(pin "29"
+			(uuid "72c34ed7-de8b-4c67-b640-5ae3b1979482")
 		)
-		(pin "8"
-			(uuid "2a93cbe5-6557-4a9e-9b9c-225265b487ec")
+		(pin "34"
+			(uuid "8ffb3fa9-1260-4b48-9a67-70aeba233b0c")
 		)
 		(pin "37"
-			(uuid "5ac81625-d369-4cbc-a03a-2a75d5a345d7")
+			(uuid "b6b44d03-6524-44ca-a60c-26229cca92bb")
 		)
-		(pin "22"
-			(uuid "ab3f8149-f060-451e-b646-d5bc480d266c")
+		(pin "14"
+			(uuid "65ed384b-778f-48aa-a4f4-b6c38ef97efc")
+		)
+		(pin "7"
+			(uuid "ee0e99e2-dd16-4cd0-aaca-c4ce01a23fee")
+		)
+		(pin "26"
+			(uuid "1b7562da-5a86-4d2b-910d-1b5589298bde")
+		)
+		(pin "9"
+			(uuid "a86bd54d-7add-4827-a9da-7710cbf2f120")
+		)
+		(pin "27"
+			(uuid "5d87bbed-2766-4b9b-a875-196e8402d330")
+		)
+		(pin "5"
+			(uuid "94759fb2-b274-4642-bbc8-4668572c9a5d")
+		)
+		(pin "4"
+			(uuid "3b875235-104e-4aba-a575-0c7b332daccb")
+		)
+		(pin "3"
+			(uuid "34648c99-fde8-42c4-bd04-769a1a3ac415")
 		)
 		(pin "23"
-			(uuid "69bade55-9f45-4493-ad82-10342164b5f2")
+			(uuid "413b634d-774e-4e68-9bc4-8004875c33f0")
+		)
+		(pin "39"
+			(uuid "accd37c1-5b5e-4921-a15f-58cf42dd0cd0")
+		)
+		(pin "12"
+			(uuid "520c36c8-0707-4740-ad7b-c88d2b1144ec")
+		)
+		(pin "28"
+			(uuid "7b7055ac-b22c-4565-832a-13c49813029f")
+		)
+		(pin "16"
+			(uuid "5738c03a-b43b-4843-9cab-e34ff2a04232")
+		)
+		(pin "38"
+			(uuid "3d30ea63-c055-414c-ae3e-b661bffc9d63")
+		)
+		(pin "11"
+			(uuid "e93d4220-a284-4841-90b0-abd53fb895ec")
+		)
+		(pin "8"
+			(uuid "20608d87-200d-46aa-918a-60046ab283c9")
+		)
+		(pin "10"
+			(uuid "ec17b4ae-1465-4424-adc4-1253740fa119")
+		)
+		(pin "6"
+			(uuid "96e7a4dd-0b69-4e1f-94b9-4237d0251abb")
+		)
+		(pin "2"
+			(uuid "f1999d18-45f7-4556-86dc-56398018a8a2")
+		)
+		(pin "1"
+			(uuid "4dbb96c9-6f3d-4941-b9fd-04eae64edbee")
+		)
+		(pin "24"
+			(uuid "608a8753-05f9-4853-a3f2-d3dcf3dd63ca")
 		)
 		(instances
 			(project "flix_all_in_one"
