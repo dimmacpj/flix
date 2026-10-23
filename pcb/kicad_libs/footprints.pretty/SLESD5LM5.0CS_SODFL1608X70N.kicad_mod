@@ -1,0 +1,200 @@
+(footprint "SLESD5LM5.0CS_SODFL1608X70N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SLESD5LM5.0CS")
+	(tags "TVS Diode (Bi-directional)")
+	(property "Reference" "D**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "6e6cb5d3-c4d1-4209-8947-f5e261a287cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SODFL1608X70N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a8809fa9-3eab-4a67-b140-a0d60443f192")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a292bd69-36e9-4afe-a323-5619fe504ca5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9599db7-e975-4f0c-a1c5-fb7fe26decdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.075 -0.4)
+		(end 0.6 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b885d9cb-2026-4b39-b0e4-145bd54c45e1")
+	)
+	(fp_line
+		(start -0.6 0.4)
+		(end 0.6 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2aebf91-b62e-47f8-a9b8-c92d0b22cd41")
+	)
+	(fp_line
+		(start -1.225 -0.6)
+		(end 1.225 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ca09f00-6d52-463e-a226-3626792e8101")
+	)
+	(fp_line
+		(start -1.225 0.6)
+		(end -1.225 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e5e3a8d-6603-48cb-aafd-420c73a01104")
+	)
+	(fp_line
+		(start 1.225 -0.6)
+		(end 1.225 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f968dcc-db23-4581-82b7-996070a62a7e")
+	)
+	(fp_line
+		(start 1.225 0.6)
+		(end -1.225 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d95c5ed-e90f-4f4d-89ea-2d8b16b5052e")
+	)
+	(fp_line
+		(start -0.6 -0.4)
+		(end 0.6 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b47deb3-9aaf-4133-9013-326036e529e0")
+	)
+	(fp_line
+		(start -0.6 -0.125)
+		(end -0.325 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1064f6f1-174e-4fc5-b56a-da88541f1e01")
+	)
+	(fp_line
+		(start -0.6 0.4)
+		(end -0.6 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84fe3889-f466-40c6-bb1a-858e1bc538ea")
+	)
+	(fp_line
+		(start 0.6 -0.4)
+		(end 0.6 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1152811f-59bf-49ad-a82b-efd7d3508481")
+	)
+	(fp_line
+		(start 0.6 0.4)
+		(end -0.6 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "723ae03e-0927-4b4f-99db-ecfe293d6f0e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3df10092-b978-4480-ad10-d833f134c8c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0 90)
+		(size 0.42 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d63ee4d3-e6ca-4784-874e-e9555d093536")
+	)
+	(pad "2" smd rect
+		(at 0.8 0 90)
+		(size 0.42 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3a8b10af-23eb-400a-8eec-5278af2baa4d")
+	)
+	(embedded_fonts no)
+	(model "/home/ubuntu/projects/flix/pcb/kicad_libs/3dmodels/SLESD5LM5.0CS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

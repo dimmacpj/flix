@@ -20,7 +20,7 @@
 |JTAG|4way header|1|
 |Battery Connector|MX2.0 Female/JST PH 2Pin|1|
 |On-board Battery Charger|TP4054|1|
-|Motor Connector|BM04B-GHS-TBT|4|
+|Motor Connector|BM02B-GHS-TBT|4|
 |RC Connector|BM03B-GHS-TBT|1|
 
 ## Drone Frame Components List
