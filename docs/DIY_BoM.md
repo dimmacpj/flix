@@ -8,9 +8,9 @@
 |Barometer|BMP384|1|
 |5V to 3V3 LDO|ME6211C33 or SGM2212-3.3 or AMS1117-3.3|1|
 |MOSFET|Vgs max to 1.5V|4|
-|Reset Button| |1|
+|Reset Button|TS21-34-035-BK-260-SMT-TR|1|
 |Auto Flash|UMH3N or S8050 or MMBT3904|1|
-|Boot Switch|2way header|1|
+|Boot Button|TS21-34-035-BK-260-SMT-TR|1|
 |UART-USB Controller|CP2102C|1|
 |USB_5V to 3V3 LDO|ME6211|1|
 |USB Type C|UJ20-C-H-G-MSMT-2B-P16-TR|1|
