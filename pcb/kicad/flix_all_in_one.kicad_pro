@@ -469,7 +469,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "same_local_global_power": "warning",
@@ -661,17 +661,35 @@
     "top_level_sheets": [
       {
         "filename": "flix_all_in_one.kicad_sch",
-        "name": "flix_all_in_one",
+        "name": "flix_IOs_LDO_Batt",
         "uuid": "b72e5080-03e0-4f53-a508-ed803e54cf11"
+      },
+      {
+        "filename": "flix_esp32.kicad_sch",
+        "name": "flix_ESP32_Flash",
+        "uuid": "3bea7d84-476e-48e2-9af8-6d9c6cadbdd4"
+      },
+      {
+        "filename": "flix_imu_baro_esc.kicad_sch",
+        "name": "flix_IMU_Baro_ESC",
+        "uuid": "23e9d260-6837-4c48-b5fa-9c83e7ab18ff"
       }
     ],
-    "used_designators": "D1-3,IC1-2,J1-5,S1,U1-3",
+    "used_designators": "#PWR1-4,D1-4,IC1-2,J1-6,Q1,R1-2,S1,U1-4",
     "variants": []
   },
   "sheets": [
     [
       "b72e5080-03e0-4f53-a508-ed803e54cf11",
-      "flix_all_in_one"
+      "flix_IOs_LDO_Batt"
+    ],
+    [
+      "3bea7d84-476e-48e2-9af8-6d9c6cadbdd4",
+      "flix_ESP32_Flash"
+    ],
+    [
+      "23e9d260-6837-4c48-b5fa-9c83e7ab18ff",
+      "flix_IMU_Baro_ESC"
     ]
   ],
   "text_variables": {},
