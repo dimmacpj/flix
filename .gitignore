@@ -16,7 +16,11 @@ tools/dist/
 
 
 #For Kicad
-!kicad_libs/
+**/footprints.pretty/
+**/3dmodels/
+**/symbols/
+!pcb/kicad_libs/zip/
 *-lib-table*
 *.kicad_prl
 pcb/kicad/.history/
+

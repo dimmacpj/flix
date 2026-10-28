@@ -673,12 +673,30 @@
         "filename": "flix_imu_baro_esc.kicad_sch",
         "name": "flix_IMU_Baro_ESC",
         "uuid": "23e9d260-6837-4c48-b5fa-9c83e7ab18ff"
+      },
+      {
+        "filename": "flix_block_diagram.kicad_sch",
+        "name": "flix_Block_Diagram",
+        "uuid": "a31feea2-39c7-45d8-b920-df3e54d4a293"
+      },
+      {
+        "filename": "flix_diy_board.kicad_sch",
+        "name": "flix_diy_board",
+        "uuid": "8aecafcf-a423-4c46-aab7-562993817b22"
       }
     ],
-    "used_designators": "#PWR1-12,C1-2,D1-4,IC1-2,J1-7,Q1-2,R1-4,S1,U1-4",
+    "used_designators": "#PWR1-12,C1-4,D1-8,IC1-2,J1-14,Q1-3,R1-8,S1,U1-6",
     "variants": []
   },
   "sheets": [
+    [
+      "a31feea2-39c7-45d8-b920-df3e54d4a293",
+      "flix_Block_Diagram"
+    ],
+    [
+      "8aecafcf-a423-4c46-aab7-562993817b22",
+      "flix_diy_board"
+    ],
     [
       "b72e5080-03e0-4f53-a508-ed803e54cf11",
       "flix_IOs_LDO_Batt"
