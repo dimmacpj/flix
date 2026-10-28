@@ -661,28 +661,13 @@
     "top_level_sheets": [
       {
         "filename": "flix_all_in_one.kicad_sch",
-        "name": "flix_IOs_LDO_Batt",
+        "name": "flix_all_in_one",
         "uuid": "b72e5080-03e0-4f53-a508-ed803e54cf11"
-      },
-      {
-        "filename": "flix_esp32.kicad_sch",
-        "name": "flix_ESP32_Flash",
-        "uuid": "3bea7d84-476e-48e2-9af8-6d9c6cadbdd4"
-      },
-      {
-        "filename": "flix_imu_baro_esc.kicad_sch",
-        "name": "flix_IMU_Baro_ESC",
-        "uuid": "23e9d260-6837-4c48-b5fa-9c83e7ab18ff"
       },
       {
         "filename": "flix_block_diagram.kicad_sch",
         "name": "flix_Block_Diagram",
         "uuid": "a31feea2-39c7-45d8-b920-df3e54d4a293"
-      },
-      {
-        "filename": "flix_diy_board.kicad_sch",
-        "name": "flix_diy_board",
-        "uuid": "8aecafcf-a423-4c46-aab7-562993817b22"
       }
     ],
     "used_designators": "#PWR1-12,C1-4,D1-8,IC1-2,J1-14,Q1-3,R1-8,S1,U1-6",
@@ -694,20 +679,20 @@
       "flix_Block_Diagram"
     ],
     [
-      "8aecafcf-a423-4c46-aab7-562993817b22",
-      "flix_diy_board"
-    ],
-    [
       "b72e5080-03e0-4f53-a508-ed803e54cf11",
-      "flix_IOs_LDO_Batt"
+      "flix_all_in_one"
     ],
     [
-      "3bea7d84-476e-48e2-9af8-6d9c6cadbdd4",
-      "flix_ESP32_Flash"
+      "8fc82039-0bd1-4e32-8582-cead9439b3cb",
+      "flix_IOs_Power"
     ],
     [
-      "23e9d260-6837-4c48-b5fa-9c83e7ab18ff",
-      "flix_IMU_Baro_ESC"
+      "eaebdb95-f302-46a1-a8f5-3b18be5170e3",
+      "flix_ESP32_Bridge"
+    ],
+    [
+      "d40bb856-41be-42da-b070-aab9a239e048",
+      "flix_IMU_Baro_Motor"
     ]
   ],
   "text_variables": {},

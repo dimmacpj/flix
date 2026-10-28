@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "2d64a5d3-db49-4b30-a859-40c75bf1c033")
+	(uuid "9808e5e0-849d-480b-800e-87f933db27dc")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BMP384:BMP384"
@@ -1055,200 +1055,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BMP384:BMP384")
-		(at 214.63 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6066e41c-c2ba-4f54-99bd-0ae00cc393f0")
-		(property "Reference" "IC2"
-			(at 232.0133 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BMP384"
-			(at 232.0133 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BMP384"
-			(at 241.3 182.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/783/bst_bmp384_ds003-1954011.pdf"
-			(at 241.3 282.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Board Mount Pressure Sensors Absolute Pressure Sensor"
-			(at 214.63 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1"
-			(at 241.3 482.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "BOSCH"
-			(at 241.3 582.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BMP384"
-			(at 241.3 682.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "262-BMP384"
-			(at 241.3 782.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP384?qs=IS%252B4QmGtzzqB3KCclqIEVQ%3D%3D"
-			(at 241.3 882.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "BMP384"
-			(at 241.3 982.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bmp384/bosch-sensortec?utm_currency=USD&region=nac"
-			(at 241.3 1082.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "8"
-			(uuid "603e7933-efff-4ca4-8483-adc2f7ee2a04")
-		)
-		(pin "5"
-			(uuid "467bfba4-79f1-475c-b0a1-6cccfb3a5d60")
-		)
-		(pin "3"
-			(uuid "0ce66351-f23f-4f9f-954f-73d85b094359")
-		)
-		(pin "2"
-			(uuid "45d7660b-0f59-4d89-b63e-978803099b4b")
-		)
-		(pin "4"
-			(uuid "b4710100-0010-426c-b6c0-adaa5d1ef590")
-		)
-		(pin "10"
-			(uuid "8d9b5ec7-6780-4652-9a80-1b6b0d18f99e")
-		)
-		(pin "9"
-			(uuid "973303cb-2e31-421d-b14b-bf95e6472a2f")
-		)
-		(pin "1"
-			(uuid "88d7dd8a-bc3c-433d-9975-3073125d1bf4")
-		)
-		(pin "6"
-			(uuid "475d63ef-f5ef-4c12-b822-94b4c7b2d6c2")
-		)
-		(pin "7"
-			(uuid "b6082bba-d0f7-4470-8604-a2e3b877375c")
-		)
-		(instances
-			(project "flix_all_in_one"
-				(path "/23e9d260-6837-4c48-b5fa-9c83e7ab18ff"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ICM-40609-D:ICM-40609-D")
-		(at 227.33 54.61 0)
+		(at 227.33 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1257,9 +1065,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8211cb4d-4062-46f6-ab76-80e0926a0bc7")
+		(uuid "36b80158-db81-4df6-8270-758c82d006d6")
 		(property "Reference" "U2"
-			(at 227.33 34.29 0)
+			(at 227.33 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1269,7 +1077,7 @@
 			)
 		)
 		(property "Value" "ICM-40609-D"
-			(at 227.33 36.83 0)
+			(at 227.33 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1279,7 +1087,7 @@
 			)
 		)
 		(property "Footprint" "ICM-40609-D:XDCR_ICM-40609-D"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1291,7 +1099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1302,7 +1110,7 @@
 			)
 		)
 		(property "Description" "Accelerometer, Gyroscope, 6 Axis Sensor I2C, SPI Output"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1314,7 +1122,7 @@
 			)
 		)
 		(property "MF" "TDK InvenSense"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1326,7 +1134,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.97mm"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1338,7 +1146,7 @@
 			)
 		)
 		(property "CREATOR" "ASHISH"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1350,7 +1158,7 @@
 			)
 		)
 		(property "NOTES" ""
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1362,7 +1170,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1374,7 +1182,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ICM-40609-D/TDK/view-part/?ref=eda"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1386,7 +1194,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1398,7 +1206,7 @@
 			)
 		)
 		(property "PARTREV" "1.2"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1410,7 +1218,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1422,7 +1230,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ICM-40609-D/TDK/view-part/?ref=snap"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1434,7 +1242,7 @@
 			)
 		)
 		(property "MP" "ICM-40609-D"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1446,7 +1254,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1458,7 +1266,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1470,7 +1278,7 @@
 			)
 		)
 		(property "UNIT" "mm"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1482,7 +1290,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK InvenSense"
-			(at 227.33 54.61 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1494,89 +1302,276 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c847b7c-cdea-4f1b-8db2-9793ea17cada")
+			(uuid "f0b7e9d0-69be-479c-a6da-0d7611ed81aa")
 		)
 		(pin "8"
-			(uuid "063227b1-aab3-47b5-aed0-6600ac8dddef")
+			(uuid "2ef2144d-6342-4467-8166-7f2e401ffcb7")
 		)
 		(pin "4"
-			(uuid "8f46adc8-64bd-4809-b62b-330e1f2c8c5f")
+			(uuid "800e98a6-e411-4f51-9cdb-427132de78cd")
 		)
 		(pin "14"
-			(uuid "522fae27-270b-4189-8730-c61e9ebd2bfd")
+			(uuid "02111fd2-2cd7-44ab-83d4-8070dbba0b16")
 		)
 		(pin "3"
-			(uuid "903c9030-d0e8-4aac-91d4-8101a90772c5")
+			(uuid "110797e9-4ed7-44f2-9f3f-e632bc2f98d1")
 		)
 		(pin "11"
-			(uuid "d197eab1-ecd5-41be-b634-3365a731862b")
+			(uuid "42bd82c4-46d2-4912-a234-1cd358fa8bdb")
 		)
 		(pin "7"
-			(uuid "bd2e2ad1-634b-4a0d-bf9f-8a1b45b3eb8e")
+			(uuid "6183e3ad-e90c-45ec-8840-471726e0566d")
 		)
 		(pin "24"
-			(uuid "d503c913-c7fb-40da-b11d-31ff068c7109")
+			(uuid "ebbf9350-7590-4897-9da9-058e82ce1826")
 		)
 		(pin "22"
-			(uuid "9840f9fb-a36d-4a1d-bbfd-6149a9cc250d")
+			(uuid "abb63944-25bd-4039-873e-f7176b0dea93")
 		)
 		(pin "10"
-			(uuid "b80c5cef-21dd-4633-be3a-a66c69da9e9b")
+			(uuid "bd05c1f7-fab4-4f56-bed9-d333fce88634")
 		)
 		(pin "1"
-			(uuid "5cde13d9-8233-4a9c-8553-6f79b7915741")
+			(uuid "d812a47b-0d66-4dac-9750-f7cd71ce1964")
 		)
 		(pin "19"
-			(uuid "642a750b-67b2-49e5-a244-e9f02a403180")
+			(uuid "f2c6d8a1-9866-4f33-83dd-cbf148739970")
 		)
 		(pin "21"
-			(uuid "b4eaa9a5-f20f-4ce6-9e9f-b25e46dfadf2")
+			(uuid "490c035e-2052-4efb-bc47-330f0e8d673e")
 		)
 		(pin "18"
-			(uuid "9b57a1e4-a24f-4913-a398-111dccff834d")
+			(uuid "f745620f-a7f6-4bc5-bc62-f3f3877cea7a")
 		)
 		(pin "9"
-			(uuid "62b8e984-0878-4068-952c-6fc358e62fd8")
+			(uuid "279d5975-6ec4-470e-bb1d-b1d9f4f0c188")
 		)
 		(pin "20"
-			(uuid "3777c0ba-b9bc-4a43-8641-4a6f38f0961c")
+			(uuid "f4eb6a4a-205a-4108-a003-7550ccbc7bcc")
 		)
 		(pin "16"
-			(uuid "c1621f12-cfdc-42b7-93bd-ffb74938cd19")
+			(uuid "8bc91b2c-4212-43cb-84bd-b32fe7f0854d")
 		)
 		(pin "13"
-			(uuid "bc43acd9-5ae8-4b46-8e69-59255b1eee5b")
+			(uuid "d62188b6-5da5-4b8b-8fb9-e3dc832e3043")
 		)
 		(pin "23"
-			(uuid "d93a1e25-1a2b-4db0-80ad-3b9495a70489")
+			(uuid "bd295ad1-f96c-471f-adfa-bd23b1fbd91a")
 		)
 		(pin "5"
-			(uuid "77abb702-01d2-4c43-bab8-97fa0a3565cb")
+			(uuid "b9efc338-bca4-4222-9ab8-dcc3881da79b")
 		)
 		(pin "17"
-			(uuid "a8b66ecc-c90f-4470-8b90-e3c39118f0f1")
+			(uuid "fbdd36d9-51f7-49b6-9367-f3be1237b5db")
 		)
 		(pin "15"
-			(uuid "1fc39f86-bd58-4208-8499-705dba246a0f")
+			(uuid "feb61e58-e05d-4a46-a2ad-ddcc2c86fa75")
 		)
 		(pin "6"
-			(uuid "3c797392-79b4-4dfa-ae98-80d6886ac840")
+			(uuid "8f322962-3a76-4db3-ac76-5f149e05741a")
 		)
 		(pin "12"
-			(uuid "ae0c336b-14c2-4bd9-a20b-3cbfa13793aa")
+			(uuid "30e59761-24c5-4958-b4b8-e31f2a12198c")
 		)
 		(instances
 			(project "flix_all_in_one"
-				(path "/23e9d260-6837-4c48-b5fa-9c83e7ab18ff"
+				(path "/b72e5080-03e0-4f53-a508-ed803e54cf11/d40bb856-41be-42da-b070-aab9a239e048"
 					(reference "U2")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "5")
+	(symbol
+		(lib_id "BMP384:BMP384")
+		(at 214.63 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9a8822b-124e-40b5-9a12-4dd37e380972")
+		(property "Reference" "IC2"
+			(at 232.0133 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMP384"
+			(at 232.0133 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMP384"
+			(at 241.3 188.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/783/bst_bmp384_ds003-1954011.pdf"
+			(at 241.3 288.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Board Mount Pressure Sensors Absolute Pressure Sensor"
+			(at 214.63 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 241.3 488.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "BOSCH"
+			(at 241.3 588.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BMP384"
+			(at 241.3 688.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "262-BMP384"
+			(at 241.3 788.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP384?qs=IS%252B4QmGtzzqB3KCclqIEVQ%3D%3D"
+			(at 241.3 888.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "BMP384"
+			(at 241.3 988.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bmp384/bosch-sensortec?utm_currency=USD&region=nac"
+			(at 241.3 1088.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "8"
+			(uuid "7581eacb-e808-41db-8f43-3154b56aab84")
+		)
+		(pin "5"
+			(uuid "38aaa44b-cb06-453c-8100-0029f8ceb65e")
+		)
+		(pin "3"
+			(uuid "165b3e07-1c53-404a-b82b-112a64dcc230")
+		)
+		(pin "2"
+			(uuid "e9824aab-843e-4210-a45d-a4eed7306f7d")
+		)
+		(pin "4"
+			(uuid "448996c2-bbd3-4df4-badc-93d227b701d3")
+		)
+		(pin "10"
+			(uuid "7260617e-31ad-44f9-a10e-0b7be645d695")
+		)
+		(pin "9"
+			(uuid "3bc2e1ee-68be-432f-97c8-73e5ed849568")
+		)
+		(pin "1"
+			(uuid "ed3bb172-a6c5-4232-9838-4c096b53e8a0")
+		)
+		(pin "6"
+			(uuid "b5c248d2-6fd1-4b73-ba4f-82b75493fdf4")
+		)
+		(pin "7"
+			(uuid "76182260-85c5-4ca0-a0c5-8cb9607dfe58")
+		)
+		(instances
+			(project "flix_all_in_one"
+				(path "/b72e5080-03e0-4f53-a508-ed803e54cf11/d40bb856-41be-42da-b070-aab9a239e048"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
