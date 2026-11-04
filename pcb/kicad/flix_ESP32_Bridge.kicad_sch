@@ -1946,10 +1946,149 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(global_label "USB_D_N"
 		(shape input)
-		(at 161.29 49.53 0)
+		(at 265.43 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1959,7 +2098,7 @@
 		)
 		(uuid "0ede7524-03e2-4feb-948f-0ef44b618515")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.6209 49.53 0)
+			(at 276.7609 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1971,9 +2110,9 @@
 			)
 		)
 	)
-	(global_label "ADC_Vbatt"
+	(global_label "SPI2_CS"
 		(shape input)
-		(at 163.83 24.13 180)
+		(at 224.79 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1981,9 +2120,9 @@
 			)
 			(justify right)
 		)
-		(uuid "8d7e7a98-4fe7-4258-a8f4-c805356a5215")
+		(uuid "12f74c01-8f1a-4d0b-a2fe-a33bc3190018")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4106 24.13 0)
+			(at 214.0639 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1995,9 +2134,33 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "SPI2_SCLK"
 		(shape input)
-		(at 175.26 25.4 0)
+		(at 224.79 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "526c46e9-e87d-42eb-ac70-b83a77067571")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7658 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI3_CS"
+		(shape input)
+		(at 257.81 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2005,9 +2168,249 @@
 			)
 			(justify left)
 		)
-		(uuid "95705ed8-7a77-4133-8854-a2327a5dd004")
+		(uuid "5d97bc98-9844-497a-b9d0-96e5ad0a55b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.7528 25.4 0)
+			(at 268.5361 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPI2_MISO"
+		(shape input)
+		(at 224.79 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63ba7bf5-fafd-4dda-afa5-f188e9a5fa05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.9472 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Motor2_PWM"
+		(shape input)
+		(at 185.42 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70cc5288-86bb-426b-920e-afa9f4b8e115")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.8236 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Motor3_PWM"
+		(shape input)
+		(at 187.96 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7da9125b-54d0-4876-bddc-a914f250d3fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.3636 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Motor1_PWM"
+		(shape input)
+		(at 186.69 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e4d646e-3f85-4e59-bb6a-cc538658cdd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.0936 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ADC_Vbatt"
+		(shape input)
+		(at 247.65 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d7e7a98-4fe7-4258-a8f4-c805356a5215")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.2306 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI2_MOSI"
+		(shape input)
+		(at 224.79 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a496d87-7d77-47af-81df-7fce6e253bdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.9472 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI3_MISO"
+		(shape input)
+		(at 257.81 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f995d5c-4cbe-47aa-a5b5-3daa43ae2802")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.6528 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Motor4_PWM"
+		(shape input)
+		(at 189.23 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be3cd2bc-c86c-46f5-97da-a70609a82445")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.6336 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI3_SCLK"
+		(shape input)
+		(at 257.81 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c45bc98e-a190-4136-9174-8ba478b3ff35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.8342 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPI3_MOSI"
+		(shape input)
+		(at 257.81 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7800b5a-fed8-4aaf-857d-27f419178377")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.6528 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2021,7 +2424,7 @@
 	)
 	(global_label "USB_D_P"
 		(shape input)
-		(at 161.29 52.07 0)
+		(at 265.43 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2031,7 +2434,7 @@
 		)
 		(uuid "e61652e6-ddac-4255-ba1e-6f586b4f129e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.5604 52.07 0)
+			(at 276.7004 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2045,7 +2448,7 @@
 	)
 	(symbol
 		(lib_id "CP2102C-A01-GQFN28:CP2102C-A01-GQFN28")
-		(at 81.28 44.45 0)
+		(at 59.69 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2056,7 +2459,7 @@
 		(fields_autoplaced yes)
 		(uuid "169feb83-cb98-448f-9212-25b73e745dbe")
 		(property "Reference" "IC1"
-			(at 121.92 38.0298 0)
+			(at 100.33 64.6998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2066,7 +2469,7 @@
 			)
 		)
 		(property "Value" "CP2102C-A01-GQFN28"
-			(at 121.92 40.5698 0)
+			(at 100.33 67.2398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2076,7 +2479,7 @@
 			)
 		)
 		(property "Footprint" "QFN50P500X500X80-29N-D"
-			(at 110.49 129.21 0)
+			(at 88.9 155.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2088,7 +2491,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/cp2102c-datasheet.pdf"
-			(at 110.49 229.21 0)
+			(at 88.9 255.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2100,7 +2503,7 @@
 			)
 		)
 		(property "Description" "USB Interface IC Single Chip - USB to UART Bridge QFN28 -40 to +85 C"
-			(at 81.28 44.45 0)
+			(at 59.69 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2111,7 +2514,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 110.49 429.21 0)
+			(at 88.9 455.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2123,7 +2526,7 @@
 			)
 		)
 		(property "Mouser Part Number" "634-P2102CA01GQFN28"
-			(at 110.49 529.21 0)
+			(at 88.9 555.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2135,7 +2538,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2102C-A01-GQFN28?qs=NeOn4crkEus2KwttjYlKhg%3D%3D"
-			(at 110.49 629.21 0)
+			(at 88.9 655.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2147,7 +2550,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Silicon Labs"
-			(at 110.49 729.21 0)
+			(at 88.9 755.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2159,7 +2562,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CP2102C-A01-GQFN28"
-			(at 110.49 829.21 0)
+			(at 88.9 855.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,6 +3223,84 @@
 			(project "flix_all_in_one"
 				(path "/b72e5080-03e0-4f53-a508-ed803e54cf11/eaebdb95-f302-46a1-a8f5-3b18be5170e3"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 193.04 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8b56c82-6184-4f75-b121-40424ab8f03d")
+		(property "Reference" "#PWR029"
+			(at 193.04 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 193.04 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 193.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11b8a9b1-6cc3-4624-812e-8c292e43a5cc")
+		)
+		(instances
+			(project "flix_all_in_one"
+				(path "/b72e5080-03e0-4f53-a508-ed803e54cf11/eaebdb95-f302-46a1-a8f5-3b18be5170e3"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
