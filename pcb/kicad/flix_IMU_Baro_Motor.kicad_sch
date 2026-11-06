@@ -5574,14 +5574,15 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 76.2 31.75 0)
+		(property "Value" "V_Batt"
+			(at 78.74 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6042,14 +6043,15 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 177.8 31.75 0)
+		(property "Value" "V_Batt"
+			(at 180.34 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7875,14 +7877,15 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 127 31.75 0)
+		(property "Value" "V_Batt"
+			(at 129.54 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9090,14 +9093,15 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 228.6 31.75 0)
+		(property "Value" "V_Batt"
+			(at 231.14 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
