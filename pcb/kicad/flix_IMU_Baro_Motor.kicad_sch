@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "9808e5e0-849d-480b-800e-87f933db27dc")
 	(paper "A4")
+	(title_block
+		(title "Flix_Mod")
+		(rev "V1.0.0")
+	)
 	(lib_symbols
 		(symbol "BMP384:BMP384"
 			(exclude_from_sim no)
@@ -1756,7 +1760,6 @@
 				(at -8.89 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1764,7 +1767,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "flix_fp:SLT045N03N2N_PDFN3333-8"
+			(property "Footprint" "footprints:SLT045N03N2N_PDFN3333-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1787,7 +1790,7 @@
 					)
 				)
 			)
-			(property "Description" "30V 56A 28W 7M@4.5V, 14A 1 N-chan"
+			(property "Description" "30V 56A 28W 7M@4.5V,14A 1 N-CHAN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1847,7 +1850,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Check_prices" "https://www.digikey.co.nz/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SLT045N03N2N/29782450?s=N4IgTCBcDaIMoBkAqAGALAVgHIoMxbCxAF0BfIA"
+			(property "Check_prices" "https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SLT045N03N2N/29782450?s=N4IgTCBcDaIMoBkAqAGALAVgHIoMxbCxAF0BfIA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1871,7 +1874,7 @@
 					(justify bottom)
 				)
 			)
-			(property "PARTREV" ""
+			(property "PARTREV" "B1610"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1883,7 +1886,7 @@
 					(justify bottom)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TSM038N03PQ33RGG/taiwan/view-part/?ref=snap"
+			(property "SnapEDA_Link" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1932,6 +1935,538 @@
 				)
 			)
 			(symbol "SLT045N03N2N_0_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0.762 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.016 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SLT045N03N2N_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at -8.89 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SLT045N03N2N"
+				(at -8.89 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "footprints:SLT045N03N2N_PDFN3333-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "30V 56A 28W 7M@4.5V,14A 1 N-CHAN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Shenzhen Slkormicro Semicon Co., Ltd."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "PDFN3333-8L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SLT045N03N2N/29782450?s=N4IgTCBcDaIMoBkAqAGALAVgHIoMxbCxAF0BfIA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "B1610"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "SLT045N03N2N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Shenzhen Slkormicro Semicon Co., Ltd."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SLT045N03N2N_1_0_0"
 				(polyline
 					(pts
 						(xy 0 2.54) (xy 0 -2.54)
@@ -2782,12 +3317,6 @@
 		(uuid "507e47f1-06af-4f99-b466-09f43bf44534")
 	)
 	(junction
-		(at 228.6 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55cc95d1-7c90-4d4a-aff4-e1e435f4262a")
-	)
-	(junction
 		(at 172.72 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2824,22 +3353,10 @@
 		(uuid "80fbb25a-8f69-4166-b0ab-adaa3307ec68")
 	)
 	(junction
-		(at 76.2 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83389828-8217-48fe-afa2-c9f89b61abc0")
-	)
-	(junction
 		(at 123.19 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8947a03b-a399-43c1-b8b0-4dfaffe76811")
-	)
-	(junction
-		(at 177.8 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "905bde6b-308a-47b0-a8c6-934a1bd65158")
 	)
 	(junction
 		(at 236.22 129.54)
@@ -2870,12 +3387,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0c17be6-4a78-4ff8-9071-1afa228259e3")
-	)
-	(junction
-		(at 127 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b30d1f15-5774-4e04-9dea-1281ff07710f")
 	)
 	(junction
 		(at 115.57 115.57)
@@ -3012,16 +3523,6 @@
 			(type default)
 		)
 		(uuid "0c0c3ced-d859-466b-9bab-e4d5291abad2")
-	)
-	(wire
-		(pts
-			(xy 113.03 40.64) (xy 127 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d3302f3-2543-499c-a04e-945fd080429f")
 	)
 	(wire
 		(pts
@@ -3275,16 +3776,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 36.83) (xy 228.6 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51943f93-8efd-493b-befb-cc0ced657386")
-	)
-	(wire
-		(pts
 			(xy 93.98 113.03) (xy 92.71 113.03)
 		)
 		(stroke
@@ -3365,7 +3856,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 40.64) (xy 228.6 41.91)
+			(xy 228.6 36.83) (xy 228.6 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3375,7 +3866,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 40.64) (xy 177.8 41.91)
+			(xy 177.8 36.83) (xy 177.8 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3392,16 +3883,6 @@
 			(type default)
 		)
 		(uuid "843adb3e-3ace-4633-a90d-c2d25221ce56")
-	)
-	(wire
-		(pts
-			(xy 127 36.83) (xy 127 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87383803-12ad-428b-842e-c9ce20ed61a8")
 	)
 	(wire
 		(pts
@@ -3485,33 +3966,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 40.64) (xy 127 41.91)
+			(xy 127 36.83) (xy 127 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9480e1e5-bded-4046-9772-dc1e25396d17")
-	)
-	(wire
-		(pts
-			(xy 62.23 40.64) (xy 76.2 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95c3eb58-f44e-4843-b480-35d25ffebdcb")
-	)
-	(wire
-		(pts
-			(xy 214.63 40.64) (xy 228.6 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95d97545-d614-42f0-929d-91da9722874a")
 	)
 	(wire
 		(pts
@@ -3625,7 +4086,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 40.64) (xy 76.2 41.91)
+			(xy 76.2 36.83) (xy 76.2 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3675,16 +4136,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 40.64) (xy 177.8 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caf1f123-9f41-4657-9e02-578a542d00d3")
-	)
-	(wire
-		(pts
 			(xy 226.06 105.41) (xy 226.06 107.95)
 		)
 		(stroke
@@ -3705,16 +4156,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 36.83) (xy 76.2 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d374425a-67bd-45de-af56-2e03e9e51564")
-	)
-	(wire
-		(pts
 			(xy 215.9 68.58) (xy 215.9 69.85)
 		)
 		(stroke
@@ -3732,16 +4173,6 @@
 			(type default)
 		)
 		(uuid "d423abd1-6065-4985-954f-bf2ecb1b14fe")
-	)
-	(wire
-		(pts
-			(xy 177.8 36.83) (xy 177.8 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4dc5110-98cd-4146-946e-7bd8afac356b")
 	)
 	(wire
 		(pts
@@ -3921,30 +4352,6 @@
 			)
 		)
 	)
-	(global_label "Motor_3_P"
-		(shape input)
-		(at 163.83 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09bc2245-aed7-4b12-a0b1-59a5cd9412a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.1688 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "Motor2_PWM"
 		(shape input)
 		(at 113.03 62.23 180)
@@ -4062,30 +4469,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "Motor_2_P"
-		(shape input)
-		(at 113.03 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "563f3ad1-cfb1-433b-aaf9-c3d7bb134d51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.3688 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -4233,30 +4616,6 @@
 			)
 		)
 	)
-	(global_label "Motor_4_P"
-		(shape input)
-		(at 214.63 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e23d88d1-ac36-4dd9-bc8a-c4b8b7e0aa21")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.9688 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "Motor3_PWM"
 		(shape input)
 		(at 163.83 62.23 180)
@@ -4270,30 +4629,6 @@
 		(uuid "e49b0710-2f54-48e0-8580-07bcf041137f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 149.2336 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Motor_1_P"
-		(shape input)
-		(at 62.23 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f50de49e-1ea4-434e-9ab6-96b9462d34a5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.5688 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4757,7 +5092,7 @@
 				)
 			)
 		)
-		(property "Description" "30V 56A 28W 7M@4.5V, 14A 1 N-chan"
+		(property "Description" "30V 56A 28W 7M@4.5V,14A 1 N-CHAN"
 			(at 226.06 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4817,7 +5152,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.digikey.co.nz/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SLT045N03N2N/29782450?s=N4IgTCBcDaIMoBkAqAGALAVgHIoMxbCxAF0BfIA"
+		(property "Check_prices" "https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SLT045N03N2N/29782450?s=N4IgTCBcDaIMoBkAqAGALAVgHIoMxbCxAF0BfIA"
 			(at 226.06 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4841,7 +5176,7 @@
 				(justify bottom)
 			)
 		)
-		(property "PARTREV" ""
+		(property "PARTREV" "B1610"
 			(at 226.06 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6100,6 +6435,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SLT045N03N2N_1")
 		(lib_id "SLT045N03N2N:SLT045N03N2N")
 		(at 124.46 59.69 0)
 		(unit 1)
@@ -6157,7 +6493,7 @@
 				)
 			)
 		)
-		(property "Description" "30V 56A 28W 7M@4.5V, 14A 1 N-chan"
+		(property "Description" "30V 56A 28W 7M@4.5V,14A 1 N-CHAN"
 			(at 124.46 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6217,7 +6553,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.digikey.co.nz/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SLT045N03N2N/29782450?s=N4IgTCBcDaIMoBkAqAGALAVgHIoMxbCxAF0BfIA"
+		(property "Check_prices" "https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SLT045N03N2N/29782450?s=N4IgTCBcDaIMoBkAqAGALAVgHIoMxbCxAF0BfIA"
 			(at 124.46 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6241,7 +6577,7 @@
 				(justify bottom)
 			)
 		)
-		(property "PARTREV" ""
+		(property "PARTREV" "B1610"
 			(at 124.46 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8069,7 +8405,7 @@
 				)
 			)
 		)
-		(property "Description" "30V 56A 28W 7M@4.5V, 14A 1 N-chan"
+		(property "Description" "30V 56A 28W 7M@4.5V,14A 1 N-CHAN"
 			(at 73.66 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8129,7 +8465,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.digikey.co.nz/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SLT045N03N2N/29782450?s=N4IgTCBcDaIMoBkAqAGALAVgHIoMxbCxAF0BfIA"
+		(property "Check_prices" "https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SLT045N03N2N/29782450?s=N4IgTCBcDaIMoBkAqAGALAVgHIoMxbCxAF0BfIA"
 			(at 73.66 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8153,7 +8489,7 @@
 				(justify bottom)
 			)
 		)
-		(property "PARTREV" ""
+		(property "PARTREV" "B1610"
 			(at 73.66 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9207,7 +9543,7 @@
 				)
 			)
 		)
-		(property "Description" "30V 56A 28W 7M@4.5V, 14A 1 N-chan"
+		(property "Description" "30V 56A 28W 7M@4.5V,14A 1 N-CHAN"
 			(at 175.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9267,7 +9603,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.digikey.co.nz/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SLT045N03N2N/29782450?s=N4IgTCBcDaIMoBkAqAGALAVgHIoMxbCxAF0BfIA"
+		(property "Check_prices" "https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SLT045N03N2N/29782450?s=N4IgTCBcDaIMoBkAqAGALAVgHIoMxbCxAF0BfIA"
 			(at 175.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9291,7 +9627,7 @@
 				(justify bottom)
 			)
 		)
-		(property "PARTREV" ""
+		(property "PARTREV" "B1610"
 			(at 175.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9379,8 +9715,7 @@
 		(uuid "489afb51-217e-4122-8274-16b93fd9ec18")
 		(members "01c462d3-97e6-41f7-b9d4-089d99892971" "021377a5-f7d0-4bc7-b334-3f6864fee60c"
 			"06deff8b-bd68-45c4-aa28-e05c28714a0b" "07d549b4-9ac2-431a-835c-aad77bbb1ee5"
-			"09862127-70db-4091-b940-6d2369bf1ebd" "09bc2245-aed7-4b12-a0b1-59a5cd9412a0"
-			"0d3302f3-2543-499c-a04e-945fd080429f" "14cf4109-5beb-4171-a3be-96b56eca79c8"
+			"09862127-70db-4091-b940-6d2369bf1ebd" "14cf4109-5beb-4171-a3be-96b56eca79c8"
 			"1cde6270-aade-4c2a-a643-1b053178b81b" "1d502bea-df74-4ad0-be0d-88ac7a6aabfb"
 			"1f1e105a-2b9a-47f9-979e-23706d94a4c6" "1f2b4c14-f3c3-4d0b-af0f-c3ef1c9f1f31"
 			"20e14c83-e15f-4203-8b21-1a5a7629b4d1" "2167fffd-09a8-404b-bc9c-264273ac5d55"
@@ -9392,37 +9727,30 @@
 			"49a81946-a061-46aa-a6b0-179969ed5b82" "4a4acce4-a925-41ad-ac37-323dc1d01722"
 			"4ab0616a-e64f-461c-936e-6899451a6685" "4afdf456-1269-471b-96e6-87e1b45d847a"
 			"4b845888-9f21-4e3b-8d4f-ff5a5845a50d" "4d451115-fd72-42ce-b4dd-c62c8caa3c47"
-			"507e47f1-06af-4f99-b466-09f43bf44534" "51943f93-8efd-493b-befb-cc0ced657386"
-			"5521493d-4547-4457-bea0-2dcb0c0a82db" "55cc95d1-7c90-4d4a-aff4-e1e435f4262a"
-			"56293cf1-043c-4dd5-9689-81f934049c8c" "563f3ad1-cfb1-433b-aaf9-c3d7bb134d51"
-			"5b24f1b4-c681-42a1-982d-9d5c1c3e395d" "5c575069-bb25-4aca-bcfc-a23d0e159d9a"
-			"5e54987f-9a7c-4b49-88a7-03ca91f0c8d1" "662fb64a-081f-496d-9419-24a368e2e730"
-			"6ac29df1-f4b7-442f-b177-0db21784c7d2" "7401e7f9-af7a-42e4-b3a0-fd138863d1c6"
-			"7535ea3a-6990-4b6e-89d7-24ca7b6b3ce3" "777c138a-2efd-4de3-a506-12dd0d9dbd10"
-			"781e64a4-a4cd-41b4-833f-a823309970ad" "7e5b950d-7b3c-49a0-9116-25e56f14c7fa"
-			"83389828-8217-48fe-afa2-c9f89b61abc0" "87383803-12ad-428b-842e-c9ce20ed61a8"
-			"8b3b7cbd-9ec3-42b2-a653-c947c17b9ef6" "8c491ea5-5138-4bf2-9b71-81a8a940db2d"
-			"905bde6b-308a-47b0-a8c6-934a1bd65158" "9380765e-1efb-459d-80b2-81f38ed4a7e9"
+			"507e47f1-06af-4f99-b466-09f43bf44534" "5521493d-4547-4457-bea0-2dcb0c0a82db"
+			"56293cf1-043c-4dd5-9689-81f934049c8c" "5b24f1b4-c681-42a1-982d-9d5c1c3e395d"
+			"5c575069-bb25-4aca-bcfc-a23d0e159d9a" "5e54987f-9a7c-4b49-88a7-03ca91f0c8d1"
+			"662fb64a-081f-496d-9419-24a368e2e730" "6ac29df1-f4b7-442f-b177-0db21784c7d2"
+			"7401e7f9-af7a-42e4-b3a0-fd138863d1c6" "7535ea3a-6990-4b6e-89d7-24ca7b6b3ce3"
+			"777c138a-2efd-4de3-a506-12dd0d9dbd10" "781e64a4-a4cd-41b4-833f-a823309970ad"
+			"7e5b950d-7b3c-49a0-9116-25e56f14c7fa" "8b3b7cbd-9ec3-42b2-a653-c947c17b9ef6"
+			"8c491ea5-5138-4bf2-9b71-81a8a940db2d" "9380765e-1efb-459d-80b2-81f38ed4a7e9"
 			"9460913a-ec6b-40a0-a2f2-6192279ea7c9" "9480e1e5-bded-4046-9772-dc1e25396d17"
-			"95c3eb58-f44e-4843-b480-35d25ffebdcb" "95d97545-d614-42f0-929d-91da9722874a"
 			"984f170c-509b-4994-aa2b-da7c6b81293d" "9e505076-370e-4eb1-8d0d-a49c06174036"
 			"9f547b70-cf5d-4839-aa03-59201ff08267" "9fa2e2ae-df16-4882-8370-c0d4d3b77b02"
 			"9fd0e9b1-2965-4063-bf1c-3db414b9dc2b" "a8135d32-a3f9-4901-b2a6-e5196f93bd7a"
 			"aba9f75e-ce25-4be6-9a91-3cc1d606bb22" "af101901-2930-4534-a22e-3bf4a430c204"
-			"b30d1f15-5774-4e04-9dea-1281ff07710f" "c04940bb-e509-4a29-8477-7b57075f542b"
-			"c18f81a9-88df-409d-a8a8-6446979334d8" "c3b54867-a695-450d-87af-623d653c3f1f"
-			"c4d0467d-bb72-424e-b7bb-dbec66810f7a" "c4eee2eb-ba83-4312-a0ab-d779cbf311bd"
-			"c6c15e80-99f8-4f57-9042-659883be1bfd" "c9124689-2fe5-4817-b188-b0641e70040f"
-			"caf1f123-9f41-4657-9e02-578a542d00d3" "cb6336d0-e33f-4a67-823a-0a03a01c4aa8"
+			"c04940bb-e509-4a29-8477-7b57075f542b" "c18f81a9-88df-409d-a8a8-6446979334d8"
+			"c3b54867-a695-450d-87af-623d653c3f1f" "c4d0467d-bb72-424e-b7bb-dbec66810f7a"
+			"c4eee2eb-ba83-4312-a0ab-d779cbf311bd" "c6c15e80-99f8-4f57-9042-659883be1bfd"
+			"c9124689-2fe5-4817-b188-b0641e70040f" "cb6336d0-e33f-4a67-823a-0a03a01c4aa8"
 			"cf0985a2-2e98-4209-a623-7cc7df145bc0" "cfa9e47e-4cee-487b-9ed1-77b19686fc8a"
-			"d374425a-67bd-45de-af56-2e03e9e51564" "d3a1101a-9682-4f51-b403-83634863a547"
-			"d4dc5110-98cd-4146-946e-7bd8afac356b" "d6060961-5dc4-4a40-bcfe-90feb61a53d5"
+			"d3a1101a-9682-4f51-b403-83634863a547" "d6060961-5dc4-4a40-bcfe-90feb61a53d5"
 			"d7f55155-e4d0-422c-b284-d698942760a9" "da6ee060-d31d-4ab1-818f-ca1ca1af320c"
 			"dc8a4e83-184e-4c2a-b85f-54bca41d3a95" "dda27fc2-0948-4f90-b7f6-4cdd815ee4f2"
 			"dde3fd98-6311-4ab4-8fac-1420a83bd7b9" "e0dd3fc2-c293-4d54-af4a-8ad6ee2dcf38"
-			"e23d88d1-ac36-4dd9-bc8a-c4b8b7e0aa21" "e49b0710-2f54-48e0-8580-07bcf041137f"
-			"e8da485a-d5fb-4d1d-a10b-2587998ef02e" "f09fee28-3e66-4f0a-8205-4e2764ae5e73"
-			"f3224627-a2fb-446a-840a-6eabac5b5057" "f50de49e-1ea4-434e-9ab6-96b9462d34a5"
+			"e49b0710-2f54-48e0-8580-07bcf041137f" "e8da485a-d5fb-4d1d-a10b-2587998ef02e"
+			"f09fee28-3e66-4f0a-8205-4e2764ae5e73" "f3224627-a2fb-446a-840a-6eabac5b5057"
 			"fe20d652-cd52-4ebe-b71c-c0e5ea75003c"
 		)
 	)
