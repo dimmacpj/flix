@@ -4734,7 +4734,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "flix_fp:SLT045N03N2N_PDFN3333-8"
+		(property "Footprint" "footprints:SLT045N03N2N_PDFN3333-8"
 			(at 226.06 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4957,7 +4957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICM-40609-D:XDCR_ICM-40609-D"
+		(property "Footprint" "footprints:XDCR_ICM-40609-D"
 			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6134,7 +6134,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "flix_fp:SLT045N03N2N_PDFN3333-8"
+		(property "Footprint" "footprints:SLT045N03N2N_PDFN3333-8"
 			(at 124.46 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7155,7 +7155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BMP384"
+		(property "Footprint" "footprints:BMP384"
 			(at 223.52 211.76 0)
 			(hide yes)
 			(show_name no)
@@ -8046,7 +8046,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "flix_fp:SLT045N03N2N_PDFN3333-8"
+		(property "Footprint" "footprints:SLT045N03N2N_PDFN3333-8"
 			(at 73.66 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9184,7 +9184,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "flix_fp:SLT045N03N2N_PDFN3333-8"
+		(property "Footprint" "footprints:SLT045N03N2N_PDFN3333-8"
 			(at 175.26 59.69 0)
 			(hide yes)
 			(show_name no)

@@ -5052,7 +5052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X80-29N-D"
+		(property "Footprint" "footprints:QFN50P500X500X80-29N-D"
 			(at 106.68 149.53 0)
 			(hide yes)
 			(show_name no)
@@ -6085,7 +6085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P222X120-6N"
+		(property "Footprint" "footprints:SOT65P222X120-6N"
 			(at 91.44 248.59 0)
 			(hide yes)
 			(show_name no)
@@ -6263,7 +6263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS21-34-035-BK-260-SMT-TR:SW_TS21-34-035-BK-260-SMT-TR"
+		(property "Footprint" "footprints:SW_TS21-34-035-BK-260-SMT-TR"
 			(at 241.3 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6713,7 +6713,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEDC1608X70N"
+		(property "Footprint" "footprints:LEDC1608X70N"
 			(at 261.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8004,7 +8004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS21-34-035-BK-260-SMT-TR:SW_TS21-34-035-BK-260-SMT-TR"
+		(property "Footprint" "footprints:SW_TS21-34-035-BK-260-SMT-TR"
 			(at 241.3 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8203,7 +8203,7 @@
 				)
 			)
 		)
-		(property "Value" "V_Bus"
+		(property "Value" "VBUS"
 			(at 78.74 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)

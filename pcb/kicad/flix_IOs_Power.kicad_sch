@@ -2747,8 +2747,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 7.62 0)
+			(property "Reference" "U3"
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2758,7 +2758,7 @@
 				)
 			)
 			(property "Value" "TP4054ST25P"
-				(at 0 -7.62 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2767,7 +2767,7 @@
 					)
 				)
 			)
-			(property "Footprint" "C382138:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL"
+			(property "Footprint" "footprints:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2867,7 +2867,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 2.54 0)
 					(length 2.54)
 					(name "~{CHRG}"
@@ -2885,7 +2885,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 0 0)
 					(length 2.54)
 					(name "GND"
@@ -2903,7 +2903,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -2.54 0)
 					(length 2.54)
 					(name "BAT"
@@ -2921,7 +2921,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -2.54 180)
 					(length 2.54)
 					(name "VCC"
@@ -2939,7 +2939,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 2.54 180)
 					(length 2.54)
 					(name "PROG"
@@ -5291,16 +5291,6 @@
 		)
 		(uuid "ffcaa704-33d8-495f-9b24-49541b4e4d55")
 	)
-	(label "V_Batt"
-		(at 162.56 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13aef2fc-cf6d-4faa-8d6b-a96533ed4a4c")
-	)
 	(label "V_In"
 		(at 196.85 43.18 0)
 		(effects
@@ -5311,7 +5301,7 @@
 		)
 		(uuid "172dc9a2-f3e2-4057-8c5b-135f8b6b5b5a")
 	)
-	(label "V_Bus"
+	(label "VBUS"
 		(at 184.15 105.41 0)
 		(effects
 			(font
@@ -5320,16 +5310,6 @@
 			(justify left bottom)
 		)
 		(uuid "2f00e399-35ea-4879-b2c8-d8254cc7030f")
-	)
-	(label "V_Bus"
-		(at 162.56 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "386c4b68-eb50-4509-9695-70a2c7ef7a48")
 	)
 	(label "V_In"
 		(at 114.3 170.18 0)
@@ -5340,46 +5320,6 @@
 			(justify left bottom)
 		)
 		(uuid "5e42cc24-88af-4d82-beb8-f37cf36130a4")
-	)
-	(label "V_Bus"
-		(at 236.22 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62fd6c75-858f-41c3-8233-a3b465fc407f")
-	)
-	(label "V_Batt"
-		(at 57.15 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "689fe3eb-cb2e-4572-bbea-ec5a404dd316")
-	)
-	(label "V_Batt"
-		(at 168.91 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e3a5565-49e5-4bc0-a6ac-3e0955f4a876")
-	)
-	(label "V_Bus"
-		(at 109.22 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba175bc4-0e2e-4dd0-aaba-7422308ebacd")
 	)
 	(global_label "Motor_1_N"
 		(shape input)
@@ -8130,7 +8070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOD3716X125N"
+		(property "Footprint" "footprints:SOD3716X125N"
 			(at 184.15 153.34 0)
 			(hide yes)
 			(show_name no)
@@ -8778,7 +8718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X110-3N"
+		(property "Footprint" "footprints:SOT23-3N-SLMT320V4CP"
 			(at 279.07 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8910,6 +8850,85 @@
 			(project "flix_all_in_one"
 				(path "/b72e5080-03e0-4f53-a508-ed803e54cf11/8fc82039-0bd1-4e32-8582-cead9439b3cb"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 168.91 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89542289-f256-47e2-a604-cf4fc21c4a9f")
+		(property "Reference" "#PWR058"
+			(at 168.91 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_Batt"
+			(at 171.45 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 168.91 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9409239e-f04a-4cbc-bb3c-2690fcb42382")
+		)
+		(instances
+			(project "flix_all_in_one"
+				(path "/b72e5080-03e0-4f53-a508-ed803e54cf11/8fc82039-0bd1-4e32-8582-cead9439b3cb"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9466,6 +9485,85 @@
 			(project "flix_all_in_one"
 				(path "/b72e5080-03e0-4f53-a508-ed803e54cf11/8fc82039-0bd1-4e32-8582-cead9439b3cb"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 162.56 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a56cd52d-2b87-42d0-8955-ef0fa864a988")
+		(property "Reference" "#PWR057"
+			(at 162.56 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_Batt"
+			(at 165.1 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 162.56 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28662a86-f20e-484f-9043-521ba3700aab")
+		)
+		(instances
+			(project "flix_all_in_one"
+				(path "/b72e5080-03e0-4f53-a508-ed803e54cf11/8fc82039-0bd1-4e32-8582-cead9439b3cb"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10263,6 +10361,161 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 236.22 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1331fb1-6c7a-4df1-aca6-1dbefe1f6283")
+		(property "Reference" "#PWR059"
+			(at 236.22 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 240.03 136.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 236.22 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d28b8ba-7893-4b84-94cc-c19b5a36846b")
+		)
+		(instances
+			(project "flix_all_in_one"
+				(path "/b72e5080-03e0-4f53-a508-ed803e54cf11/8fc82039-0bd1-4e32-8582-cead9439b3cb"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 162.56 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c721c552-71a3-4289-b360-888c8ac65ce9")
+		(property "Reference" "#PWR056"
+			(at 162.56 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 162.56 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 162.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d99887b-6a11-45d6-91d8-eac65047ab65")
+		)
+		(instances
+			(project "flix_all_in_one"
+				(path "/b72e5080-03e0-4f53-a508-ed803e54cf11/8fc82039-0bd1-4e32-8582-cead9439b3cb"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SLESD5LM5.0CS:SLESD5LM5.0CS")
 		(at 97.79 67.31 90)
 		(unit 1)
@@ -10664,7 +10917,7 @@
 				)
 			)
 		)
-		(property "Value" "V_Bus"
+		(property "Value" "VBUS"
 			(at 120.65 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10837,7 +11090,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEDC1608X70N"
+		(property "Footprint" "footprints:LEDC1608X70N"
 			(at 329.87 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11003,7 +11256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C382138:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "footprints:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 208.28 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11173,131 +11426,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group ""
-		(uuid "082a908b-2f74-4f5b-b453-1d8478e34c58")
-		(members "02f38161-a6fa-4010-80de-26be76d23935" "073636f3-6658-4d7c-acc0-b5cf0fbd631c"
-			"0d024e16-04b1-4196-8ed0-27e051406332" "1551ea64-039a-4f35-ba12-ae8244be7b58"
-			"1669b24f-c00d-4ef0-b5f1-a796f35fa0a0" "21face0f-4864-4e0e-b0b4-c6d37d0b3df6"
-			"25d6e1d8-9584-4a73-9f44-13c9f85785dd" "292b1041-3630-48e7-bb77-e4498a644181"
-			"297eeaa7-468a-4c0c-b991-5df0d585e3f4" "29c5a664-1e4b-417b-ae97-4e92e5aab676"
-			"2c42e878-d227-4b0e-a34b-8f1b936451a5" "2f00e399-35ea-4879-b2c8-d8254cc7030f"
-			"346fc699-ce6d-402a-be1e-36666cc5c28a" "36c0bebe-a1c7-4a00-ad6c-cc9cc31e17e3"
-			"384f0be2-16e8-4abb-a366-a8afc31cd915" "39c15ca8-ed06-4b31-abe7-6fffa9eb2f55"
-			"3cea23c9-f673-454d-bb26-d3b80f7499c7" "49158f9f-a4e8-4d31-99f1-c093cf438bf3"
-			"4a62bb4a-4deb-450c-b9ec-c812e50d04b4" "4bddedca-cbf1-4903-9039-1a0752b196c3"
-			"4c5951a5-9d55-4c2c-b60e-23877279bf06" "583e7163-96ce-4473-b4a1-59cc6118d604"
-			"62fd6c75-858f-41c3-8233-a3b465fc407f" "6365a28e-800b-4448-9ab4-6a0f6b08e6bf"
-			"709ac344-7c75-4e01-b4e3-3d40469b00db" "7625f4b3-b2e4-48c5-8f10-6496324a5f03"
-			"7e139e48-2503-4bf4-bf92-e566906f5c71" "7ea07b05-9c86-4573-a476-5c85e5e56872"
-			"847be5a3-efec-4c3a-ad60-935620c6570d" "8645bb35-9517-491d-bda6-a03bb3d6175e"
-			"92b23ceb-69fd-45fe-b2fb-e5dcd3aa1532" "9c20d5a9-b09d-459d-89c7-f77264182e27"
-			"9e3a5565-49e5-4bc0-a6ac-3e0955f4a876" "a143a428-c863-4c22-b816-a3013456b641"
-			"a318f20e-a069-423f-be57-bf6457929490" "a41fde0f-76d7-4758-b6e9-a7ea20f25e17"
-			"aeb40434-b20d-4817-84a2-d6deeb8a5fca" "b69089ef-82f2-46b2-8728-88624ddf2189"
-			"b7872d8e-2566-4a79-84fa-786e0ac16337" "cf20a136-e141-491b-a11f-7d82690d2872"
-			"d2815bcd-4886-4254-bda6-829f34b66d7a" "dd1f6214-a5a4-4a05-a0ed-c267042e24e4"
-			"e5a6b68d-86f8-4500-8918-23567280a7da" "e636e993-c750-40b9-b6ca-106489010d77"
-			"ebb10fcb-30ea-4422-870b-7de021a224d9" "ed083a95-f502-4ffb-be5d-333700180bc4"
-			"f5877ee9-54c4-40c7-9df2-fa27921e1789" "f9b0f157-fd9d-4791-b1c7-21dbd50c399b"
-			"fd400cd3-dca7-4240-aa79-90d1b969d1c6"
-		)
-	)
-	(group ""
-		(uuid "46a81bd6-ae03-4da1-a95f-425fad9574f6")
-		(members "06a5c757-7083-4006-91ab-bd71b8395132" "083627b3-5e8e-4f20-90a8-0aa1bff16724"
-			"0a399b4a-0c44-4ed2-b955-5c729218f127" "0a7fd981-f046-494f-b2f9-e8f40b237ed8"
-			"15fee141-f8d8-40dc-9ec8-737d9b3b4b1b" "23236981-56f0-47c9-8ac3-bb8ad80d9dbe"
-			"27feb136-111a-475c-b09b-a8da9d2efd2c" "2d3d1e71-7b72-4e22-89d1-5cbeb003fdfd"
-			"2daa0927-0994-47cd-912b-5483b5b0a43a" "2eb30f27-e352-4768-adbb-4b62665dde32"
-			"3590bd54-3bb2-4889-a1d6-baebaeae8f7a" "3f0e7a92-7d74-4e28-b03d-6c3356022dae"
-			"3f82189d-9a0f-4b61-b4e5-0ba89f08fb1d" "50c1bf4d-7e2c-48f3-98a6-98ad147b4898"
-			"56dd7047-b242-4a92-81b2-3c2ca9edd010" "58b2d59a-6238-4586-939f-d821cb86dca8"
-			"5b8c7f16-6c06-47f1-8fc1-ea6f5ebdfab3" "5e9d950c-8303-4ba8-b19d-bc064ebc36db"
-			"5f9c34a3-f7ae-436c-ab95-f2a43b0e7206" "62818b5f-e788-4953-94b0-1a58b65a436a"
-			"6576ad4a-149b-4395-a169-06a54d929586" "66eb15cb-0105-4955-8185-1c8ae1d71601"
-			"6f739698-901b-4614-9c41-cf3338d9b636" "7390bbc3-222b-408d-a509-a71a4a2cfb37"
-			"813efcee-e711-4b5d-9fa1-74416f2176e6" "82a25a34-1687-4603-bcef-091303301796"
-			"8c696a58-25a2-48e9-bb35-eb173e402283" "8fbbf549-7215-4590-b75b-6c7b5a0ff887"
-			"9306cd7e-6db9-4c69-88f9-4cdb9eb538a4" "9f60b0e2-2e12-4287-baf1-fab7c5c4f29a"
-			"a07752c0-1f23-4373-af87-347d18761232" "a33f9eef-a039-4c0d-bb8c-13bd0402978a"
-			"a835053e-82ac-4a13-9504-3cf1a6be7cf6" "a87dfdb3-d3a9-4e11-a2cf-9e52ba454d27"
-			"ab00474e-14c2-4f59-9f5f-fe33ce575a5e" "b0f9736e-d9c5-4a82-9a5a-95f0054041d7"
-			"b225659a-b357-4cf8-a0d9-ae50de68d446" "b249d157-b9b5-49d7-ab63-0a09f287f438"
-			"ba175bc4-0e2e-4dd0-aaba-7422308ebacd" "c91bcf68-7ae2-4f39-86ca-1217a52a9af1"
-			"d2ebee97-120d-459e-b6de-5e4a9c22b282" "ddb40e81-7fd5-4dac-8aa3-590aa1673609"
-			"ddbadf49-bb7c-449b-bfc5-e6b57ea8b171" "e9ebda99-8b33-461d-a575-fa58c2617422"
-			"ec80b28a-b6fa-406e-9f5c-6ec155a4f46c" "fc5134d8-a106-4aa4-ac17-9caa3c535545"
-		)
-	)
-	(group ""
-		(uuid "6338d067-acce-4fee-aa08-f900b8a51061")
-		(members "00b72930-8b39-4022-8a72-68a6aa723ed3" "089cf39a-6919-41f5-9e41-77494f9c5150"
-			"0c7d3743-b8ac-4582-9d02-398ad024a209" "18569891-e6d5-4898-9f39-f37ae88564a6"
-			"19055f50-3710-4e00-8212-a3163e474eeb" "19fc35c5-9885-411f-b24e-2e4ea0e61718"
-			"21e76024-23df-44fa-b7e3-f96655c43fd1" "2360997d-5ffd-4608-9443-e21a58933168"
-			"2772998b-8e15-4d35-9521-f7482d43009d" "2abd998b-94ae-4d9e-a909-48128a55a1af"
-			"2b88b3e8-ff38-4881-ad9b-3a663df8b0a4" "2be08aa5-c407-42fb-a81c-3d5b8638e5c6"
-			"2f3c3f0a-478d-4907-a259-d4dd523a91f4" "3f1fbb2e-253a-461f-8750-5da097865ce4"
-			"4e123ab4-6aa3-449d-a883-915066845164" "5af5a1d8-93d6-4a3e-9371-de64461cdfa7"
-			"60ef2a57-90b6-428b-8071-d6557ae359ff" "7cb53582-a524-4691-bcc5-4eea899118a9"
-			"9c367974-8f47-4d4e-b93a-ca2156cc2f88" "a8d0dc60-f70a-4de9-8d7a-0095a2558e3f"
-			"a91c235d-40c2-4014-891c-da5c90e523a7" "ad590bdf-386e-4e82-bb32-cf818acdef05"
-			"b9111a3b-082e-4b1c-8904-896fb5ddf6eb" "bb4d2317-32ee-4601-ba4d-914f46d0bd05"
-			"d08189fa-9455-4c06-8c49-73bb429f8403" "d5bbdd0f-59cb-42f8-9f18-f121df3efbb0"
-			"da255686-c97b-475c-a257-8ad534c4def6" "dc91c53f-d137-4bdd-ba1a-1ad4a9b4295f"
-			"e2d06093-654c-4cd1-8766-44909178b1c1" "e3b6db22-5f08-4cba-ae3a-92c6ab63599a"
-			"eacfcf42-9711-44a1-88dc-8fe7b0a9c2a7" "ed033d0d-4f90-4790-b1ca-a93dca8639b0"
-			"ffcaa704-33d8-495f-9b24-49541b4e4d55"
-		)
-	)
-	(group ""
-		(uuid "63517d34-683d-4898-8800-94b2f5e3467d")
-		(members "0e5f2a08-4558-4f13-ada0-26c4de730671" "11e73f0f-a806-4006-91f4-91cd2b79ae31"
-			"2c0008b4-b26b-4484-9e6c-c25006b63068" "5c54e045-89b5-4f9f-9753-6ac888ad1e79"
-			"5e42cc24-88af-4d82-beb8-f37cf36130a4" "73043910-a84a-488e-beee-f264e1032397"
-			"7e9c5e31-ed70-4ce7-832e-70a204036f52" "93d6b090-26c6-42de-9ebc-d406ee3bfba8"
-			"a4f192ca-c966-485d-a444-29ee9f667ebf" "aae0641c-861b-4f39-b95a-8152a9a6bbd1"
-			"b7459001-e13a-4b82-b28b-372a46766e65" "f70cebdf-59bf-4b79-9a16-a0e5e2bb07c9"
-		)
-	)
-	(group ""
-		(uuid "65437b12-efaa-4978-9dc3-909f13dddb91")
-		(members "05d78e7b-813d-43e9-a150-e59eb9596aa0" "0901a591-629c-4f83-8c2c-a24ce8c0f9f4"
-			"09451e24-7595-4e4b-9e7d-ac72475767a1" "13aef2fc-cf6d-4faa-8d6b-a96533ed4a4c"
-			"172dc9a2-f3e2-4057-8c5b-135f8b6b5b5a" "1e26192d-b866-48ee-85fc-ebb7f5764f70"
-			"1fb1a32e-56f9-452c-8391-6797b75dc317" "1fdc88aa-21e3-49b2-bacd-c2d41c7d4e4e"
-			"203bcfa4-fb32-40fd-89a7-57850df8e082" "28c171e4-4648-4251-a693-c728e7160227"
-			"304f7e37-2099-4088-9052-a9f902170d9b" "3577f85d-21ec-4e97-8f2e-075baa1b3009"
-			"3835f8aa-bc01-49a9-9ad3-5c0cf2340e4f" "386c4b68-eb50-4509-9695-70a2c7ef7a48"
-			"38c0e020-7c16-4f98-a5cf-d9f878838795" "3997da03-a87e-45c5-a0c9-40a4849c2362"
-			"3c062398-a477-4bca-a317-00d901cb0258" "3c8a2ba5-b677-4451-95d2-47c155ff609f"
-			"43a577b6-f9e0-4efb-a109-690e5e8b8be0" "4abbf7ae-9247-46c4-9725-836eba39d626"
-			"4d13c23a-34de-4361-b48c-8ae5a11f430c" "50a0628a-9f3e-4ad9-ab8c-e43d6e9427f8"
-			"5bacc2cf-575e-426d-af01-457f57b9b1be" "64527e9d-47c8-4835-8691-163a1acf43dd"
-			"6e3e7eaa-a8df-4ef0-89a2-0f71ddbd4f8f" "6fde65be-6d90-45fb-a8d1-db6eb617d259"
-			"705ca4ec-914f-4c3e-9992-22afe33adc7a" "78d78d83-a64d-4deb-9825-476a92e73928"
-			"871e4bc9-df5c-4d04-a246-327653595a46" "99e86054-80d5-4805-9dfe-8daf6f830a71"
-			"9ca7fe8d-ae66-42fc-9da6-9d33cf9e81d4" "9cfb73b3-e6f9-4d90-896c-fe9d9a32ab8f"
-			"a288ef9f-9563-4043-af41-10498998ab39" "b3758f34-accc-40e0-b557-198a47acd146"
-			"b4877fbb-2994-4287-8781-7cb0f4ffc1c8" "bd2f2f3c-c47d-4398-9ec2-22570a585c76"
-			"c08ee153-fbd0-4d97-950c-36a4dc891a61" "c1fe3c7a-e1c6-4471-9294-47cb4fa28b49"
-			"c2e6b62b-7579-4bec-8be5-7e2ecd6fd200" "c74eeb16-0292-4f3c-bfb3-232209d0955f"
-			"d403d727-7545-472b-82d3-9987b2cb78b6" "d5c7fc37-83f1-4cd1-a835-590bb5b37365"
-			"e86b6aa5-27ed-488b-af1e-e93d069202a8" "ea72ecc8-a45d-4f26-b88e-83eae5774072"
-			"ef36a81e-40da-45f8-8b3f-221e37ad934e" "ef8c3e2f-a569-482c-a81f-f61354f37cb8"
-			"f6011b85-c3dd-4cff-9f3f-32fd7ab057bc" "f6e9a697-f20a-47a6-8a43-be611a1db5a3"
-			"f6fcfd1a-a4b5-478d-9804-7e922d601c0d" "fcadefde-1f85-4a7d-8dd8-0e58739c87f4"
-			"fea2829e-80ac-40d7-8492-31dea9fe2fc3"
-		)
-	)
-	(group ""
-		(uuid "7c624433-4121-40ef-81bf-1f51e551329c")
-		(members "13d64573-6cb7-43f9-bd41-4d8890f611b7" "327dc66d-cfb3-4440-874c-f1ef2d5f97ff"
-			"432026e7-8e5b-4bd9-a081-7a0ee408be98" "689fe3eb-cb2e-4572-bbea-ec5a404dd316"
-			"787b8041-154a-42c0-a4a6-c60f184aa115" "998b9635-0989-48ce-9a8d-9ac418701e00"
-			"a72aab57-d4a2-41ff-a350-ec61a087c47b" "a92b9de6-2911-4e16-b11e-46ec97bccc61"
 		)
 	)
 )
